@@ -12,7 +12,7 @@ variable "accountId" {
 variable "lambda_function_name" {
   description = "What to name the lambda function"
   type        = string
-  default     = "Currency_Converter"
+  default     = "DynamoDB_API-GATEWAY"
 }
 
 variable "endpoint_path" {
